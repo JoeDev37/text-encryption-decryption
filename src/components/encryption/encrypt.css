@@ -1,0 +1,10 @@
+
+.container-enc {
+    background-color: #1e1e2e;
+    outline: 3px solid #f38ba8;
+    border-radius: 10px;
+    margin-left: 3px;
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}

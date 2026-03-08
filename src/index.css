@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.miku {
+  background-color: #11111b;
+  color: #cdd6f4;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.container {
+  background-color: #313244;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  height: 30%;
+  border-radius: 10px;
+  outline: 2px solid #f38ba8;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  margin-top: 100px;
+}
