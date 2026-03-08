@@ -5,11 +5,9 @@ export function Heading() {
   return (
 
     <div className="container">
-      {/* <div className="child-container"> */}
         <h1 className="heading-text"> 
         Text Encryption and Decryption
         </h1>
-      {/* </div> */}
     </div>
 
   )
