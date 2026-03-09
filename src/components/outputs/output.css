@@ -1,19 +1,20 @@
-
-.container-enc {
-    /* background-color: #1e1e2e; */
-    /* outline: 3px solid #f38ba8; */
+.output-container {
+    background-color: #1e1e2e;
+    outline: 3px solid #f38ba8;
     border-radius: 10px;
-    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    /* height: 30%;
+    margin-top: 50px; */
 
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-
-    display: flex;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
 }
 
-textarea {
+.a {
     flex: 1;
     width: 100%;
+    height: 100%;
     padding: 10px;
 
     box-sizing: border-box;
@@ -29,12 +30,4 @@ textarea {
     font-weight: bold;
 
     margin-bottom: 10px;
-}
-
-textarea:focus {
-    outline: 3px solid #ffffff;
-}
-
-textarea::placeholder {
-    text-align: center;
 }

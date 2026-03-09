@@ -1,9 +1,33 @@
 .container-dec {
     background-color: #1e1e2e;
-    outline: 3px solid #f38ba8;
+    /* outline: 3px solid #f38ba8; */
     border-radius: 10px;
-    margin-right: 3px;
+    margin-left: 3px;
 
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+    display: flex;
 }
+
+/* textarea {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+
+    box-sizing: border-box;
+    resize: both;
+
+    border-radius: 10px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+
+    margin-bottom: 10px;
+}
+
+textarea::placeholder {
+    text-align: center;
+} */
