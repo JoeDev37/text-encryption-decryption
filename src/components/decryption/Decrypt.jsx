@@ -1,36 +1,19 @@
-// import { useState } from 'react';
-// import './decrypt.css';
-
-// export function Decryption() {
-//     console.log('dicrypted')
-//     const {text, setText} = useState('')
-
-//     return (
-
-//         <div className="container-dec">
-//             <textarea
-//                 placeholder='Decrypt'
-//                 value={text}
-//                 onChange={
-//                     (e) => {
-//                         setText(e.target.value)
-//                     }
-//                 }
-//                 rows= '10'
-//             />
-//         </div>
-//     )
-// }
-
 import './decrypt.css';
 
 export function Decryption({input, setInput}) {
+
+    function handleChange(e) {
+        const value = e.target.value .replace(/[^0-9 ]/g, "")
+        setInput(value)
+    }
+
     return (
         <div className='container-dec'>
             <textarea 
               placeholder='Decrypt'
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+            //   onChange={(e) => setInput(e.target.value)}
+            onChange={handleChange}
             />
         </div>
     )

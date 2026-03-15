@@ -1,4 +1,3 @@
-
 export function Heading() {
   console.log('Hello, World!')
 
